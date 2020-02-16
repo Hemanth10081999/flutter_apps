@@ -17,6 +17,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
   int age = 0;
+  String name = 'Hemantha rajan' ;
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +55,7 @@ class _HomeState extends State<Home> {
               height: 10,
             ),
             Text(
-              'Hemanth',
+              '$name',
               style: TextStyle(
                 color: Colors.amberAccent[200],
                 letterSpacing: 2.0,
